@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+.main {
+    width: 100%;
+}
+.nav {
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo {
+    
+    background-image: url(./img/sushi.png);
+    background-size: cover;
+    width: 10%;
+    height: 70px;
+}
+.nav-button {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.button-container {
+    width: 700px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.button {
+    width: 200px;
+    height: 18px;
+    color: white;
+    text-transform : uppercase;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold;
+}
+.text-center {
+    font-weight: 800;
+    text-elign: center;
+}
+.container {
+    width: 100%;
+    height: 600px;
+    background-color: gray;
+    display: flex;
+}
+.container-1 {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-3 {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    font-weight: 800%
+}
+
+.container-2 {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-4 {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+}
+.container-5 {
+    width: 50%;
+    height: 10px;
+}
+.container-6 {
+    width: 50%;
+    height: 10px;
+}
